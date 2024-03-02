@@ -1,0 +1,24 @@
+*{
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+.custom-hyperlink{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+.container-width{
+    padding: 50px;
+}
+hr{
+    border: 2px solid;
+    color: black;
+    opacity: 1;
+    margin: 0;
+}
+.custom-select{
+    width: 200px;
+    border: 2px solid black;
+}
+.form-control{
+    border: 2px solid black;
+}
