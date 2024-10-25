@@ -1,24 +1,107 @@
-*{
-    font-family: 'Balsamiq Sans', sans-serif;
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: #1a1a1d;
+    color: #f0f0f0;
 }
-.custom-hyperlink{
+
+.navbar {
+    background-color: #121212;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #f0c419;
+}
+
+.custom-hyperlink {
+    margin-left: 20px;
+    font-size: 1.1rem;
+    color: #f0f0f0;
     text-decoration: none;
-    color: black;
-    margin: 20px;
 }
-.container-width{
-    padding: 50px;
+
+.custom-hyperlink:hover {
+    color: #f0c419;
 }
-hr{
-    border: 2px solid;
-    color: black;
-    opacity: 1;
-    margin: 0;
+
+/* Hero Section */
+.hero-section {
+    padding: 50px 0;
+    background-color: #272727;
+    color: #f0f0f0;
 }
-.custom-select{
-    width: 200px;
-    border: 2px solid black;
+
+.hero-section h2 {
+    font-weight: bold;
+    color: #f0c419;
 }
-.form-control{
-    border: 2px solid black;
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #d3d3d3;
+}
+
+.btn-info {
+    background-color: #0062cc;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-info:hover {
+    background-color: #004b99;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Collection Section */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+    color: #f0f0f0;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+    color: #151514;
+}
+
+/* Footer */
+footer {
+    background-color: #121212;
+    color: white;
+    padding: 20px 0;
+}
+
+footer h4,
+footer p {
+    color: #f0c419;
+}
+
+footer .social-icons a {
+    color: white;
+    margin-right: 15px;
+    font-size: 2rem;
+}
+
+footer .social-icons a:hover {
+    color: #f0c419;
+}
+
+.text-center p {
+    margin-top: 20px;
+    color: #6c757d;
 }
